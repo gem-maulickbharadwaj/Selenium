@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ma.bharadwaj/IdeaProjects/crossBrowser/src/main/java/crossBrowser/main.java">
+<!--        <classes>-->
+<!--            <class name="crossBrowser.main">-->
+<!--                <methods><include name="verifyPageTable"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+    </test>
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="main" />
+        </classes>
+    </test>
+    <test name="ChromeTest">
+        <parameter name="browser" value= "chrome" />
+        <classes>
+            <class name="main" />
+        </classes>
+    </test>
+
+</suite>
